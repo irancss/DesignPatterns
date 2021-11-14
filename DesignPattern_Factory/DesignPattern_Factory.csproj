@@ -46,6 +46,7 @@
     <Compile Include="CarFactory.cs" />
     <Compile Include="Entities\Benz.cs" />
     <Compile Include="Entities\BMW.cs" />
+    <Compile Include="Entities\Creator.cs" />
     <Compile Include="Entities\Ford.cs" />
     <Compile Include="Entities\Note10.cs" />
     <Compile Include="Entities\Note5.cs" />

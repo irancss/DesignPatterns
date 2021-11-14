@@ -36,7 +36,7 @@ namespace DesignPattern_Factory
             Console.WriteLine("-----------");
 
 
-
+            new Creator.Client().Main();
 
             Console.ReadKey();
         }
