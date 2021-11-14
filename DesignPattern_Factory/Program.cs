@@ -27,6 +27,16 @@ namespace DesignPattern_Factory
             note10.FactoryMethod().CalcScreenSize();
             note5.FactoryMethod().CalcScreenSize();
 
+            Console.WriteLine("-----------");
+
+
+            var point = Point.NewPolarPoint(4.2, 4.5);
+            Console.WriteLine(point);
+
+            Console.WriteLine("-----------");
+
+
+
 
             Console.ReadKey();
         }

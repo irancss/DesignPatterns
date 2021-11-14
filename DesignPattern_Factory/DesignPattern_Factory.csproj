@@ -49,6 +49,7 @@
     <Compile Include="Entities\Ford.cs" />
     <Compile Include="Entities\Note10.cs" />
     <Compile Include="Entities\Note5.cs" />
+    <Compile Include="Entities\Point.cs" />
     <Compile Include="Entities\Ship.cs" />
     <Compile Include="Entities\Truck.cs" />
     <Compile Include="Interface\ICarSupplier.cs" />
