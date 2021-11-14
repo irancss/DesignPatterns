@@ -14,6 +14,20 @@ namespace DesignPattern_Factory
         {
             var car = CarFactory.GetCar("Benz");
             car.Start();
+
+
+            Console.WriteLine("-----------");
+
+            var note10 = new Note10Creator();
+            var note5 = new Note10Creator();
+
+            note10.AddSystem();
+            note5.AddSystem();
+
+            note10.FactoryMethod().CalcScreenSize();
+            note5.FactoryMethod().CalcScreenSize();
+
+
             Console.ReadKey();
         }
     }
